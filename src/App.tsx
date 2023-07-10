@@ -8,6 +8,15 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import NotFound from "./pages/NotFound/NotFound";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(faFacebook, faInstagram, faTwitter, faLinkedin);
 
 function App() {
   return (
